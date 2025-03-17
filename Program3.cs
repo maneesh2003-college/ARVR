@@ -5,11 +5,11 @@ public class x: MonoBehaviour{
 
     void Start(){
         if(animator==null){
-            animator=GetComponent<animator>();
+            animator=GetComponent<Animator>();
         }
     }
 
     public void PlayAnimation(){
-        animator.SetTrigger("win");
+        animator.SetTrigger("win"); 
     }
 }
